@@ -2,17 +2,20 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SpringElasticsearch" />
+        <module name="Spring-Data-Jpa-PostgreSQL" />
         <module name="springMongoRestApi" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring-Data-Jpa-PostgreSQL" options="-parameters" />
       <module name="SpringElasticsearch" options="-parameters" />
       <module name="springMongoRestApi" options="-parameters" />
     </option>
