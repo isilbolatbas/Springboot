@@ -12,6 +12,7 @@
         <module>springMongoRestApi</module>
         <module>SpringElasticsearch</module>
         <module>Spring-Data-Jpa-PostgreSQL</module>
+        <module>Springboot-api-doc</module>
     </modules>
 
 

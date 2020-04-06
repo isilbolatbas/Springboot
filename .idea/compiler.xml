@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SpringElasticsearch" />
+        <module name="Springboot-api-doc" />
         <module name="Spring-Data-Jpa-PostgreSQL" />
         <module name="springMongoRestApi" />
       </profile>
@@ -17,6 +18,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Spring-Data-Jpa-PostgreSQL" options="-parameters" />
       <module name="SpringElasticsearch" options="-parameters" />
+      <module name="Springboot-api-doc" options="-parameters" />
       <module name="springMongoRestApi" options="-parameters" />
     </option>
   </component>
