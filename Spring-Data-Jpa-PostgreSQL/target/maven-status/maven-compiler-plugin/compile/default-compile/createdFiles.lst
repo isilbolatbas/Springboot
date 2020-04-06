@@ -1,0 +1,9 @@
+com\example\service\KisiService.class
+com\example\DataJpaApplication.class
+com\example\repository\AdresRepository.class
+com\example\repository\KisiRepo.class
+com\example\entity\Adres.class
+com\example\entity\Kisi.class
+com\example\entity\Adres$AdresTip.class
+com\example\dto\KisiDto.class
+com\example\service\impl\KisiServiceImpl.class
