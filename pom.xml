@@ -13,6 +13,7 @@
         <module>SpringElasticsearch</module>
         <module>Spring-Data-Jpa-PostgreSQL</module>
         <module>Springboot-api-doc</module>
+        <module>spring-boot-rabbitmq</module>
     </modules>
 
 

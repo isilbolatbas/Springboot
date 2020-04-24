@@ -8,9 +8,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SpringElasticsearch" />
-        <module name="Springboot-api-doc" />
-        <module name="Spring-Data-Jpa-PostgreSQL" />
         <module name="springMongoRestApi" />
+        <module name="Spring-Data-Jpa-PostgreSQL" />
+        <module name="spring-boot-rabbitmq" />
+        <module name="Springboot-api-doc" />
       </profile>
     </annotationProcessing>
   </component>
@@ -19,6 +20,7 @@
       <module name="Spring-Data-Jpa-PostgreSQL" options="-parameters" />
       <module name="SpringElasticsearch" options="-parameters" />
       <module name="Springboot-api-doc" options="-parameters" />
+      <module name="spring-boot-rabbitmq" options="-parameters" />
       <module name="springMongoRestApi" options="-parameters" />
     </option>
   </component>
